@@ -1,0 +1,54 @@
+@media all and (max-width: 1100px){
+  .logo__wrapper{
+    margin-right: 15px;
+  }
+
+  .menu__item{
+    margin: 0 8px;
+  }
+
+  .logo, .menu__item{
+    font-size: 12px;
+  }
+
+  .dropdown {
+    margin-left: 15px;
+  }
+
+}
+
+@media all and (max-width: 1000px){
+
+  .flex__container{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .center-wrap {
+    width: auto;
+    padding: 0 20px;
+  }
+
+  h1{
+    font-size: 30px;
+    line-height: 130%;
+    margin: 18px 0;
+  }
+  
+  #demo-btn{
+    display: none;
+  }
+
+  .header__menu{
+    display: none;
+  }
+
+  section{
+    margin: 10px 0;
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

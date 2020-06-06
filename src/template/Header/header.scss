@@ -1,0 +1,46 @@
+
+@import "../../css/partials/ui";
+@import "__menu/_menu";
+
+.logo__wrapper{
+  width: 33px;
+  display: flex;
+  margin-right:30px;
+}
+
+.header{
+  padding: 10px 0;
+}
+
+.logo,
+.header__wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo,
+.menu__item{
+  color:$font-color;
+}
+
+.logo{
+  max-width: 290px;
+}
+
+#demo-btn{
+  color:$font-color;
+  background: $white-color;
+  font-size: 14px;
+  line-height: 13px;
+  font-weight: normal;
+  border:1px solid $font-color;
+  padding: 9px 20px;
+  margin: 0;
+  &:hover{
+    background: $orange-hover;
+    border:1px solid $orange-hover;
+    color:$white-color;
+  }
+}

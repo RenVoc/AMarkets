@@ -1,0 +1,26 @@
+@import "./__dropdown/_dropdown";
+
+.header-menu__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 14px;
+  &:first-child{
+    margin-left:0;
+  }
+  &:last-child{
+    margin-right:0;
+  }
+}
+
+.header__menu{
+  display: flex;
+  max-width: 760px;
+  text-align: center;
+}

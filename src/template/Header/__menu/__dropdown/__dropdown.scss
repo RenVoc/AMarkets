@@ -1,0 +1,64 @@
+@import "../../../../css/partials/ui";
+
+.dropdown__dots{
+  width: 15px;
+  display: block;
+}
+
+.dropdown{
+  margin-left: 25px;
+  position:relative;
+  &:hover{
+    cursor: pointer;
+    .dropdown__wrapper{
+      display: flex;
+    }
+  }
+}
+
+.dropdown__wrapper{
+  display: none;
+  top: 20px;
+  right: 0;
+  background: $white-color;
+  box-shadow: $box-shadow;
+  padding: 13px 14px 15px 20px;
+  text-align: right;
+  min-width: 234px;
+  box-sizing: border-box;
+  position: absolute;
+  flex-direction: column;
+  border-radius: 3px;
+  &:before{
+    content: '';
+    position: absolute;
+    top: -19px;
+    right: 0;
+    height: 20px;
+    width: 40px;
+  }
+  .dropdown__item{
+    margin: 5px 0;
+    color: $font-color;
+    &:hover{
+      color: $orange-hover;
+    }
+  }
+}
+
+.main-elements{
+  display: none;
+}
+
+@media all and (max-width: 1000px) {
+  .awards__item {
+    width: calc(100% / 3 - 20px);
+  }
+}
+
+@media all and (max-width: 1000px){
+  .main-elements{
+    display: flex;
+    flex-direction: column;
+  }
+}

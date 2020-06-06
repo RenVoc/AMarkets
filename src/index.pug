@@ -1,0 +1,17 @@
+doctype html
+html(lang="ru")
+    head
+        title="AMarkets Olovyannikov"
+        include template/links.pug
+    body
+        .root-wrapper
+            header.header
+                .center-wrap.header__wrapper
+                    include template/Header/header.pug
+            main.main-content
+                article
+                    .center-wrap.flex__container
+                        include template/Demo/Demo.pug
+                aside
+                    .center-wrap.flex__container
+                        include template/Awards/Awards.pug

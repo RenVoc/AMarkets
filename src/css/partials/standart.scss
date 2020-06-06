@@ -1,0 +1,55 @@
+@import "ui.scss";
+
+h1{
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 40px 0;
+  color: $font-color;
+  font-family: 'Gotham Pro Black', sans-serif;
+}
+
+h2{
+  font-size: 30px;
+  line-height: 120%;
+  color: $font-color;
+  font-family: 'Gotham Pro Black', sans-serif;
+  font-weight: 900;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: 'Gotham Pro Regular', sans-serif;
+  margin: 18px 0;
+  color: $font-color;
+}
+
+.center{
+  text-align: center;
+}
+
+a{
+  color: $orange;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+a:hover{
+  text-decoration: underline;
+  outline: none;
+  color: $orange-hover;
+  transition: all 0.2s ease-out;
+}
+
+a,button{
+  outline: none;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+img{
+  max-width: 100%;
+}

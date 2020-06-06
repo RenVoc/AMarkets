@@ -1,0 +1,51 @@
+/*Colors*/
+$font-color: #4A4A4A;
+$white-color:#fff;
+$highlight: #3960cc;
+$error-color: #ef4700;
+$orange: #FB7101;
+$orange-hover: #FF8A2C;
+$box-shadow:0 8px 24px -8px rgba(0, 0, 0, 0.15);
+$box-shadow-hover:0 8px 24px -8px rgba(0, 0, 0, .5);
+
+/*Fonts*/
+@font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url('../fonts/GothamPro.eot');
+  src: url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GothamPro.woff') format('woff'),
+  url('../fonts/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  src: url('../fonts/GothamPro-Medium.eot');
+  src: url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GothamPro-Medium.woff') format('woff'),
+  url('../fonts/GothamPro-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Bold';
+  src: url('../fonts/GothamPro-Bold.eot');
+  src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GothamPro-Bold.woff') format('woff'),
+  url('../fonts/GothamPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url('../fonts/GothamPro-Black.eot');
+  src: url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GothamPro-Black.woff') format('woff'),
+  url('../fonts/GothamPro-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
