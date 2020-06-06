@@ -46,7 +46,6 @@ html, body {
 
 section{
   width: 100%;
-  margin: 30px auto;
 }
 
 .center-wrap{
@@ -55,10 +54,6 @@ section{
   padding: 0 10px;
   margin: 0 auto;
   box-sizing: border-box;
-}
-
-.error-color{
-  color: $error-color;
 }
 
 .button__wrapper{

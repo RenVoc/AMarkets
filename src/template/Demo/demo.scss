@@ -1,5 +1,9 @@
 @import "__content/__content";
 
+.demo__wrapper{
+  margin:20px 0;
+}
+
 .demo__content{
   max-width: 60%;
 }
@@ -24,5 +28,9 @@
 
   .demo__content{
     max-width: 100%;
+  }
+
+  .demo__wrapper{
+    margin:10px 0;
   }
 }
