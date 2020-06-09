@@ -44,3 +44,21 @@
     color:$white-color;
   }
 }
+
+@media all and (max-width: 1000px){
+  .dropdown__wrapper{
+    top: 25px;
+  }
+  .header{
+    box-shadow: $box-shadow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 2;
+  }
+  .main-content{
+    padding-top: 45px;
+  }
+}
